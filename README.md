@@ -70,8 +70,7 @@ The architecture uses:
 4. **Install Python dependencies**
 
    ```bash
-   pip install -r requirements.txt
-   # Or install individually:
+
    pip install pyserial mediapipe
    ```
 
@@ -81,7 +80,7 @@ The architecture uses:
 2. Power on the radio‑controlled arm bot and ensure its remote controller is functional.
 3. Run the Python gesture‑recognition script:
    ```bash
-   python gesture_control.py
+   python app.py
    ```
 4. Position your hand in front of the webcam. The system will detect gestures and send corresponding servo commands to the Arduino.
 5. Watch the robotic arm move in real time based on your hand gestures!
