@@ -1,6 +1,6 @@
-# Gesture-Controlled Robot Arm
+# Gesture-Controlled Arm Robot Car
 
-Welcome to the **Gesture-Controlled Robot Arm** project! This system lets you intuitively control a radio‑controlled robotic arm using hand gestures. It integrates machine learning–based gesture recognition with real‑time hardware actuation via an Arduino board and servo motors.
+Welcome to the **Gesture-Controlled Arm Robot Car** project! This system lets you intuitively control a radio‑controlled robotic arm using hand gestures. It integrates machine learning–based gesture recognition with real‑time hardware actuation via an Arduino board and servo motors.
 
 ## 🌟 Project Overview
 
@@ -84,6 +84,8 @@ The architecture uses:
    ```
 4. Position your hand in front of the webcam. The system will detect gestures and send corresponding servo commands to the Arduino.
 5. Watch the robotic arm move in real time based on your hand gestures!
+## 🎬 Demo Video
 
+A demonstration of the final output is included in the file `gesture_controlled.mp4`. This video shows the robotic arm being controlled by hand gestures in real time.
 
 
