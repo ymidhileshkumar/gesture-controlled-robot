@@ -47,19 +47,20 @@ The architecture uses:
 
 2. **Upload Arduino code**
 
+   - **Attach the servo motors** to the joystick arms of your radio‑controlled remote controller. Secure the horns so that motor rotations translate to joystick movements.
    - Navigate to the Arduino sketch folder:
-     ```
+     ```bash
      cd arduino_servo_motor
      ```
    - Open `arduino_servo_motor.ino` in the Arduino IDE.
    - Select your board (e.g. Arduino UNO) and the correct COM port.
    - Click **Upload** to flash the sketch to your Arduino.
    - Return to the project root:
-     ```
+     ```bash
      cd ..
      ```
 
-3. **Create and activate a virtual environment** (recommended)
+3. **Create and activate a virtual environment** (recommended) **Create and activate a virtual environment** (recommended)
 
    ```
    python3 -m venv venv
@@ -70,7 +71,6 @@ The architecture uses:
 4. **Install Python dependencies**
 
    ```bash
-
    pip install pyserial mediapipe
    ```
 
