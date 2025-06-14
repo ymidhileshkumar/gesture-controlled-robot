@@ -25,7 +25,7 @@ The architecture uses:
 ## 📋 Hardware Components
 
 - Arduino UNO (or compatible board)
-- 4× Servo motors (to manipulate joystick axes)
+- 2× Servo motors (to manipulate joystick axes)
 - Radio‑controlled robotic arm bot with a USB‑powered remote controller
 - USB A‑to‑B cable for Arduino connection to host PC
 
@@ -86,17 +86,5 @@ The architecture uses:
 4. Position your hand in front of the webcam. The system will detect gestures and send corresponding servo commands to the Arduino.
 5. Watch the robotic arm move in real time based on your hand gestures!
 
-## 🤝 Contributors
 
-- **Levi Ackermann** – machine learning & Python integration
-- **[Your Teammate Name]** – Arduino firmware & hardware assembly
-- **[Your Teammate Name]** – project coordination & testing
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-We’d love to hear your feedback and contributions. Enjoy controlling your robot arm with just a wave of your hand!
 
